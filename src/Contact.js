@@ -19,8 +19,8 @@ const Contact = () => {
       </p>
       <p>
         <a href="https://docs.appcues.com/">The Appcues docs</a> are also a great resource.  
-      </p>      
-    </div>
+      </p> 
+    </div> 
   );
 };
 

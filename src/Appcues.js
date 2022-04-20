@@ -4,6 +4,7 @@ import { Route, Switch, useLocation } from 'react-router-dom';
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import iFrame from "./iFrame";
 import Navigation from "./Navigation";
 import Login from "./Login";
 import Settings from "./Settings";
@@ -29,6 +30,7 @@ const AppcuesRouter = () => {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/iFrame" component={iFrame} />
         <Route path="/login" component={Login} />
         <Route path="/settings" component={Settings} />
       </Switch>

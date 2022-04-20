@@ -25,6 +25,8 @@ const App = () => {
 
   window.Appcues.identify(userId, { // feel free to add in any user properties here
     role: "tester",
+    testProp: null,
+    testProp2: "",
     signupDate: currentTime
   })
 
@@ -35,7 +37,7 @@ const App = () => {
     logEvents(name, payload); // adds events into the event log on the page
   })
 
-  window.Appcues.loadLaunchpad("#launchpad", { // loads Launchpad on this element
+  window.Appcues.loadLaunchpad("#ricks-launchpad", { // loads Launchpad on this element
     position: "right"
   })
   

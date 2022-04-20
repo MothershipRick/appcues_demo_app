@@ -44,6 +44,7 @@ const Toolbar = () => {
             <li><button onClick={anonymousUser}>Appcues.anonymous()</button></li>
             <li><button onClick={openDebugger}>Appcues.debug()</button></li>
             <li><button onClick={resetAppcues}>Appcues.reset()</button></li>
+            <li><div id="google_translate_element"></div></li>
             </ul>
             <EventLog />
         </div>

@@ -12,9 +12,10 @@ const Navigation = () => (
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
     <Link to="/contact">Contact</Link>
+    <Link to="/iFrame">iFrame</Link>
     <Link to="/settings">Settings</Link>
     <Link to="/login">Login</Link>
-    <div id="launchpad"></div> 
+    <div id="ricks-launchpad"></div> 
   </div>
 );
 
