@@ -9,6 +9,8 @@ import Navigation from "./Navigation";
 import Login from "./Login";
 import Settings from "./Settings";
 import Toolbar from "./appcuesComponents/Toolbar";
+import Wistia from "./wistia";
+import longContent from "./longContent";
 
 /* 
 This component is wrapped around all the path changes in the app, which then
@@ -32,7 +34,9 @@ const AppcuesRouter = () => {
         <Route path="/contact" component={Contact} />
         <Route path="/iFrame" component={iFrame} />
         <Route path="/login" component={Login} />
+        <Route path="/longContent" component={longContent} />
         <Route path="/settings" component={Settings} />
+        <Route path="/wistia" component={Wistia} />
       </Switch>
       <Toolbar />
     </div>
