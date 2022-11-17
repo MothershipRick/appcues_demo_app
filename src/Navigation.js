@@ -16,7 +16,7 @@ const Navigation = () => (
     <Link to="/settings">Settings</Link>
     <Link to="/longContent">Long Content</Link>
     <Link to="/login">Login</Link>
-    <div id="ricks-launchpad"></div> 
+    <div id="launchpad"></div> 
   </div>
 );
 
