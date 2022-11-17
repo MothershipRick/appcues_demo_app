@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color:hsl(239deg 4% 25%);
+  background-color:#25231E;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -99,7 +99,7 @@ img {
 /* Main app styling */
 
 .app-content {
-  background-color: hsl(240deg 8% 93%);
+  background-color: #A9988B;
   width: calc(70% - 75px);
   padding: 10px;
   color:rgb(0, 8, 63);
@@ -113,11 +113,11 @@ img {
   padding: 5px 20px;
   font-size: 14px;
   font-weight: 700;
-  background-color: rgb(222, 222, 249);
+  background-color: #585338;
 }
 
 .app-content button:hover {
-  background-color: rgb(205, 205, 254);
+  background-color: #3b3d27;
 }
 
 .app-content p {
@@ -169,7 +169,7 @@ img {
 }
 
 #toolbar button {
-  background-color: rgb(16, 140, 197);
+  background-color: #585338;
   color: #fff;
   font-weight: 700;
   margin: 5px 0;
@@ -178,7 +178,7 @@ img {
 }
 
 #toolbar button:hover {
-  background-color: rgb(14, 114, 160)
+  background-color: #312A1F;
 }
 
 #toolbar h2 {
