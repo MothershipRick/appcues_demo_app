@@ -234,6 +234,10 @@ img {
   margin-left: 5px;
 }
 
+.goog-te-gadget img {
+  width: 40px !important;
+}
+
 /* custom Appcues styling */
 
 appcues-container:not(.fullscreen)[data-pattern-type='shorty'][data-position^='bottom'] {
