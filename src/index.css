@@ -90,11 +90,16 @@ img {
 
 .appcues-widget-icon {
   font-size: 25px !important;
+  color: #ececef;
 }
+
 .appcues-widget-dropdown {
   border-radius: 5px;
 }
 
+.appcues-widget-icon:after{
+  background-color: #2B2E26 !important;
+}
 
 /* Main app styling */
 
