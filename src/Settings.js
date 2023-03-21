@@ -13,9 +13,9 @@ const Settings = () => {
       <p>Just a generic dropdown menu</p>
       <select defaultValue="Select one" >
         <option  disabled='disabled'>Select one</option>
-        <option>Option One</option>
-        <option>Option Two</option>
-        <option>Option Three</option>
+        <option value="One">One</option>
+        <option value="Two">Two</option>
+        <option value="Three">Three</option>
       </select>
       <SetProperties/>
     </div>
